@@ -10,6 +10,7 @@ class CustomDelayThrottle(AutoThrottle):
     """Set custom download delay for different domain."""
 
     def __init__(self, crawler):
+        """Initialize the custom delay throttle."""
         self.domain_delays = crawler.settings.getdict('DOMAIN_DELAYS')
         logging.debug("Using Custom AutoThrottle")
         super(CustomDelayThrottle, self).__init__(crawler)
