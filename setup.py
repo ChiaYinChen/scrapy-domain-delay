@@ -1,17 +1,26 @@
-"""Python Setup file."""
-from setuptools import setup, find_packages
+"""Package this project."""
+from setuptools import find_packages, setup
 
 import scrapy_domain_delay
+
 
 setup(
     name='scrapy-domain-delay',
     version=scrapy_domain_delay.__version__,
     description='Define download_delay for different domain.',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     packages=find_packages(),
+    author='Carol Chen',
+    author_email='carolchency@gmail.com',
+    classifiers=[
+        'Framework :: Scrapy',
+        'Programming Language :: Python :: 3.7',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+    ],
+    python_requires='>=3.7',
     install_requires=[
-        'Scrapy>=1.6.0',
+        'scrapy>=1.6.0',
         'tldextract==2.2.1',
     ],
-    author='Carol Chen',
-    author_email='carolchency@gmail.com'
 )
