@@ -1,4 +1,4 @@
-"""Custom Scrapy extensions."""
+"""Custom scrapy extensions."""
 import logging
 
 from scrapy.extensions.throttle import AutoThrottle
@@ -12,8 +12,8 @@ class CustomDelayThrottle(AutoThrottle):
     def __init__(self, crawler):
         """Initialize the custom delay throttle."""
         self.domain_delays = crawler.settings.getdict('DOMAIN_DELAYS')
-        logging.debug("Using Custom AutoThrottle")
-        super(CustomDelayThrottle, self).__init__(crawler)
+        logging.debug('Using Custom AutoThrottle')
+        super().__init__(crawler)
 
     def _adjust_delay(self, slot, latency, response):
         """Override AutoThrottle._adjust_delay()."""
@@ -23,4 +23,4 @@ class CustomDelayThrottle(AutoThrottle):
                 return
             slot.delay = self.domain_delays[site_domain]
         else:
-            super(CustomDelayThrottle, self)._adjust_delay(slot, latency, response)  # noqa: E501
+            super()._adjust_delay(slot, latency, response)
