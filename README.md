@@ -1,5 +1,9 @@
 # Scrapy-Domain-Delay
 
+![PyPI](https://img.shields.io/pypi/v/scrapy-domain-delay)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/scrapy-domain-delay)
+[![Build Status](https://travis-ci.com/ChiaYinChen/scrapy-domain-delay.svg?branch=master)](https://travis-ci.com/ChiaYinChen/scrapy-domain-delay)
+
 ## Install
 ```
 $ pip install scrapy-domain-delay
