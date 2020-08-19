@@ -15,6 +15,7 @@ setup(
     author_email='carolchency@gmail.com',
     classifiers=[
         'Framework :: Scrapy',
+        'Intended Audience :: Developers',
         'Programming Language :: Python :: 3.7',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
