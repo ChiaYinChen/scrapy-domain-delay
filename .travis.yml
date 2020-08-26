@@ -8,6 +8,6 @@ deploy:
   provider: pypi
   username: chiayinchen
   password:
-    secure: $PYPI_SECURE_KEY
+    secure: "sc3rkPnJIjDZPCQqATCcekKvFRVITjeGq6zfK9my0+7sJNmVth14DxEyBb3m+JmHn2LRk6zObgFT7wAk30I9fNj0zAIdKtoMLPFvP8x1bpccYt0UZ1yc6rAKI0dW0qIPR00uodmx1OJN9CCLwlfLiCNqJMbY9IHELStQhWDp61V+UjJWeSD++kp4T2eHmzFg36Wx/hRLMIu8X0j7jldma750qs+K9t6GRWX5IahbYzL10jFk882yWFMGuQADLiKvVdOhwFmch2QcfiMO6DsG1Wc+RIL+ECZCa7+nHyh92JhIAf3m/jdCmlk4YuO0HZfoVc7mlOQKynC6izIbnMpBaM4LeGECIRLRgGxs6zhjD/VHEv04eQAzrVsMYBRfsmifOuUl2f3TvpzhV/WOGEnLgJpSkuPrbKlQcmBBXtH8tqhK0vsX5z5559AqTxlsk2Ir13H+l/BmFZR6YrETQ9sUryYF2UyWNQ9+/tVPCnhAOmPLwegnnsZjq6cA7lzlS7vSDlvmUa5I7RbdD9XIzWDtMlZLNicDuci9Ga+FU1xDNXxTmkO2SM/YwJIxD23Im1HCuU8uNTkNrCp1a34xXrCPmm/dkeIdLqGu7XNO6eE+ImfAZKxLVv2fxGXKR+XMVGyi9GDWNRf+ytdF6GA9HMy09SIEHORTpSEQZRny1gJbofA="
   on:
     tags: true
