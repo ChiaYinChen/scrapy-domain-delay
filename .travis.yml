@@ -9,5 +9,5 @@ deploy:
   user: chiayinchen
   password:
     secure: $PYPI_SECURE_KEY
-  true:
+  on:
     tags: true
