@@ -7,7 +7,7 @@ import tldextract
 
 
 class CustomDelayThrottle(AutoThrottle):
-    """Set custom download delay for different domain."""
+    """Set custom `DOWNLOAD_DELAY`for different domain."""
 
     def __init__(self, crawler):
         """Initialize the custom delay throttle."""
