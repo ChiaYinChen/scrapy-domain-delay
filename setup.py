@@ -7,7 +7,14 @@ import scrapy_domain_delay
 setup(
     name='scrapy-domain-delay',
     version=scrapy_domain_delay.__version__,
-    description='Define download_delay for different domain.',
+    project_urls={
+        'Source': 'https://github.com/ChiaYinChen/scrapy-domain-delay',
+    },
+    description=(
+        'This package provides a way to let '
+        'you set different delay for different '
+        'website, using the Scrapy framework.'
+    ),
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     packages=find_packages(),
