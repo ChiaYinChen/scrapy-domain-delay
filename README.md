@@ -2,7 +2,7 @@
 
 [![PyPI](https://img.shields.io/pypi/v/scrapy-domain-delay)](https://pypi.org/project/scrapy-domain-delay/)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/scrapy-domain-delay)](https://pypi.org/project/scrapy-domain-delay/)
-[![Build Status](https://travis-ci.com/ChiaYinChen/scrapy-domain-delay.svg?branch=master)](https://travis-ci.com/ChiaYinChen/scrapy-domain-delay)
+[![Build Status](https://app.travis-ci.com/ChiaYinChen/scrapy-domain-delay.svg?branch=master)](https://app.travis-ci.com/ChiaYinChen/scrapy-domain-delay)
 
 `Scrapy-Domain-Delay` is a package that lets you set different delay for different website, using the [Scrapy](https://github.com/scrapy/scrapy) framework.
 
